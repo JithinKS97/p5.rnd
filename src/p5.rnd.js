@@ -101,4 +101,4 @@ class RndBox {
   }
 }
 
-window.RndBox = RndBox;
+p5.prototype.RndBox = RndBox;
