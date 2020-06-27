@@ -86,7 +86,9 @@ export default class DBox {
 
   drawContentInside() {
     if (this.drawInside) {
+      push()
       this.drawInside({ s: this.s });
+      pop()
     }
   }
 
