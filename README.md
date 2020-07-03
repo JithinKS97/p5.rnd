@@ -1,6 +1,6 @@
 # p5.rnd
 
-[Preview](https://media.giphy.com/media/jRYBD5UNl99I238H4T/source.gif)
+![Preview](https://media.giphy.com/media/jRYBD5UNl99I238H4T/source.gif)
 
 ## Resizable and draggable box for p5.js
 
