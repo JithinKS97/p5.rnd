@@ -99,6 +99,10 @@ class RndBox {
   isDragged() {
     return this.dBox.isBeingDragged;
   }
+
+  isPtInside(x, y) {
+    return this.dBox.isPtInside(x, y);
+  }
 }
 
 p5.prototype.RndBox = RndBox;
