@@ -2,6 +2,8 @@
 
 ![Preview](https://media.giphy.com/media/jRYBD5UNl99I238H4T/source.gif)
 
+[See src](https://github.com/JithinKS97/p5.rnd/blob/master/dist/p5.rnd.js)
+
 ## Resizable and draggable box for p5.js
 
 I couldn't find any resizable and draggable elements in p5.js which I needed in many of my works. I found myself writing the same code again and again. So I made it into a library.
