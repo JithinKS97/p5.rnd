@@ -2,7 +2,7 @@
 
 ![Preview](https://media.giphy.com/media/jRYBD5UNl99I238H4T/source.gif)
 
-[See src](https://github.com/JithinKS97/p5.rnd/blob/master/dist/p5.rnd.js)
+[See javascript source code](https://github.com/JithinKS97/p5.rnd/blob/master/dist/p5.rnd.js)
 
 ## Resizable and draggable box for p5.js
 
