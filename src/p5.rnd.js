@@ -68,9 +68,7 @@ class RndBox {
     if (this.resizeCalled) {
       this.rBox.drag();
       if (this.rBox.isBeingDragged) {
-        this.dBox.setSideLength({
-          s: 2 * (this.rBox.x - this.dBox.x),
-        });
+        this.dBox.setSize(2 * (this.rBox.x - this.dBox.x));
       }
     }
   }
