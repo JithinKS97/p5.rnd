@@ -86,9 +86,9 @@ export default class DBox {
 
   drawContentInside() {
     if (this.drawInside) {
-      push()
+      push();
       this.drawInside({ s: this.s });
-      pop()
+      pop();
     }
   }
 
@@ -125,8 +125,16 @@ export default class DBox {
     this.y = y;
   };
 
-  setSideLength = ({ s }) => {
+  setSize = (s) => {
     this.s = s;
+  };
+
+  getPos = () => {
+    return [this.x, this.y];
+  };
+
+  getSize = () => {
+    return this.s;
   };
 
   setVisible = (isVisible) => {

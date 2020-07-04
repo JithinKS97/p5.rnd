@@ -85,7 +85,7 @@ class RndBox {
   }
 
   getPos() {
-    return [this.dBox.x, this.dBox.y];
+    return this.rndBox.getPos();
   }
 
   setPos({ x, y }) {
@@ -94,6 +94,10 @@ class RndBox {
 
   getSize() {
     return this.dBox.s;
+  }
+
+  setSize(s) {
+    this.dBox.setSize(s);
   }
 
   isDragged() {
