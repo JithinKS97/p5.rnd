@@ -85,7 +85,7 @@ class RndBox {
   }
 
   getPos() {
-    return this.rndBox.getPos();
+    return this.dBox.getPos();
   }
 
   setPos({ x, y }) {
